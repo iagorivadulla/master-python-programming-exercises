@@ -8,4 +8,6 @@ def all_digits_even():
         else:  
             lst.append(i)
     
-    return ', '.join(lst)
+    return ', '.join(str(i) for i in lst)
+
+print(all_digits_even())
