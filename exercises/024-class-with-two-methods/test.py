@@ -18,7 +18,7 @@ def test_for_file_output(capsys):
 
 
 @pytest.mark.it("String input should be uppercase")
-@mock.patch('builtins.input', lambda x: 'hello')
+@mock.patch('builtins.input', lambda: 'hello')
 def test_plus_ten(stdin):
     sys.stdout = buffer = io.StringIO()
     import app
