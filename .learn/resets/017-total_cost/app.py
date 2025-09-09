@@ -1,9 +1,6 @@
 # Complete the function to return the total cost in dollars and cents of (n) cupcakes
 def total_cost(d, c, n):
-    total_dollar = d * n + (c * n) // 100
-    total_cents = (c * n) % 100
-
-    return (total_dollar, total_cents)
+    return None
 
 
 # Invoke the function with three integers: total_cost(dollars, cents, number_of_cupcakes)

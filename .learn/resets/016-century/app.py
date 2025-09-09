@@ -1,8 +1,7 @@
-
 # Complete the function to return the respective number of the century
 def century(year):
-  return (year + 99) // 100
+  return None
 
 
 # Invoke the function with any given year
-print(century(2000))
+print(century())
