@@ -15,3 +15,10 @@ class Student:
 ### DON'T modify the code above ###
         
 ### ↓ Your code here ↓ ###
+class CollegeStudent(Student):  # Add the parent class inside the parenthesis
+    def __init__(self, name, age, grade, major):
+        super().__init__(name, age, grade)
+        self.major = major
+
+    def introduce(self):
+        return f"Hi there! I'm {self.name}, a college student majoring in {self.major}."
